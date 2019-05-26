@@ -1,0 +1,49 @@
+html, body {
+    background:url('../img/background.jpg') center center no-repeat;
+    height: 100%;
+    background-size:cover;
+}
+
+#logo img {
+    margin:0 auto !important;
+    padding-top:20px;
+    max-width:15%;
+}
+#intro p {
+    color: white;
+    font-family: 'Just Another Hand', cursive;
+    font-size:2em;
+    text-align: center;
+    padding-top:20px;
+    margin-bottom: -10px;
+}
+
+#countdown .counter{
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    font-size:1.5em;
+    color:white;
+}
+
+#my-div{
+    text-align: center;
+}
+
+.background{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fab{
+    font-size:2.5em;
+    color: white;
+    position:relative;
+    bottom:0;
+    transition:all 0.3s ease-in-out;
+}
+
+.fab:hover{
+    color:#6cadde;
+    bottom:5px;
+}
+
